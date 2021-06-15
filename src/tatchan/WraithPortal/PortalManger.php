@@ -186,7 +186,7 @@ class PortalManger
 		        ]),
 	        ]),
         ]);
-        $pk = AddVolumeEntityPacket::create(1, $data);//$entityNetId = fog id
+        $pk = AddVolumeEntityPacket::create(1, $data);//$entityNetId = Runtime fog id(Entityid...?)
         $player->sendDataPacket($pk);
     }
 
